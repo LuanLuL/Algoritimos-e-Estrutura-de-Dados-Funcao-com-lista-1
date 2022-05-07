@@ -29,9 +29,12 @@ dessas novas inserções?</p>
 </div>
 
 <p>Para exemplificar a implementação de listas encadeadas simples, vamos considerar Figura 1. Nela é possivel observar a representação do algoritimo, no qual é necessário armazenar o endereço de início e fim para que ela nao desapareça durante o processamento. 
-	
+
+<div style="padding: 20px auto">
 <img src="img/img1.png" width="500" height="500">
-	<center><capiton><i>Figura 1 - Ilustração de uma lista encadeada simples</i></capition></center>
+	<capiton><i>Figura 1 - Ilustração de uma lista encadeada simples</i></capition>
+</div>
+
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
  
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>

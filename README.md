@@ -32,8 +32,8 @@ dessas novas inserções?</p>
 <p>No que se trata do gerenciamento dos espaços em branco para novas inserções, o custo será a busca por algum elemento vazio dentro da lista e consequentemente a inserção do valor no respectivo local. Observe o exemplo:</p>
 <div>
 	<code><pre>if(strcmp(aux->getValue().c_str(), "") == 0){
-			aux->setValue(newValue);
-		}</pre></code>
+	aux->setValue(newValue);
+}</pre></code>
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>
 

@@ -41,7 +41,7 @@ dessas novas inserções?</p>
 
 <p>onde a variavel  "aux" proporciona O acesso aos Itens de forma segura e "itemEmpty" implica se algum Item vazio foi encontrado na lista.</p>
 <h3>Processamento</h3>
-<p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado três principais plataformas: i) Dev C++, ii) Visual Studio Code e iii) WSL:Ubunto</p>
+<p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais plataformas: i) Dev C++, ii) Visual Studio Code e iii) WSL:Ubunto</p>
 
 <ol type="I">
 	<li>

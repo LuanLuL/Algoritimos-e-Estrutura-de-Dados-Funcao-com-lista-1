@@ -29,11 +29,17 @@ dessas novas inserções?</p>
 <p>Com isso, o software identifica objetos repetidos no interior da lista e os torna vazios.</p>
 <p>Por fim, para atender o quesito de  remover todas as réplicas sem mover os ”ponteiro“, basta desconsiderar os elementos vazios durante a apresentação da lista ao usuário.</p>
 
-<p>No que se trata do gerenciamento dos espaços em branco para novas inserções, o custo será a busca por algum elemento vazio dentro da lista e consequentemente a inserção do valor no respectivo local. Observe o exemplo:</p>
+<p>No que se trata do gerenciamento dos espaços em branco para novas inserções, o custo será a busca por algum elemento vazio dentro da lista e consequentemente a inserção do valor no respectivo local. Espera-se, no pior caso, uma complexidade de <stronger><i>n+1</i></stronger>, pois cada elemento da lista deve ser verificado até que se encontre um objeto vazio. Observe o exemplo:</p>
 <div>
-	<code><pre>if(strcmp(aux->getValue().c_str(), "") == 0){
-	aux->setValue(newValue);
-}</pre></code>
+	<code><pre>do{
+	if(strcmp(aux->getValue().c_str(), "") == 0){
+		itemEmpty = true;
+		aux->setValue(value);
+		cout << "\n----->Nome inserido com sucesso!\n\n------------------------------------------\n";
+	}
+
+	aux = aux->getProx();
+}while((aux != NULL) && (itemEmpty != true));}</pre></code>
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>
 

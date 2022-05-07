@@ -21,12 +21,14 @@ dessas novas inserções?</p>
 <div style="margin: 30px 30px 30px 30px;">
 	<code>
 	  	<pre>Class Item{
-			string value;
-			Item *prox;
-		};</pre>
+	string value;
+	Item *prox;
+};</pre>
 	</code>
 	  
 </div>
+
+<img src="img/img1.png">
 
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
  

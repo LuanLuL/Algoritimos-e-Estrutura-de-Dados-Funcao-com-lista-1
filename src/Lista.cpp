@@ -77,7 +77,7 @@ void Lista::insertFinal(string value){
 	Item* newItem = new Item(value);
 	
 	if(getSize() >= this->maxSize){
-		cout << "\n\nERRO...ERRO...A lista " << this->name << " estÃ¡ cheia...ERRO...ERRO\n\n";
+		cout << "\n\nERRO...ERRO...A lista " << this->name << " está cheia...ERRO...ERRO\n\n";
 	}
 	else{
 		if(checkEmpty()){
@@ -93,12 +93,12 @@ void Lista::insertFinal(string value){
 
 void Lista::printList(){
 	if(checkEmpty()){
-		cout << "\nA lista " << this->name << " estÃ¡ vazia.";
+		cout << "\nA lista " << this->name << " está vazia.";
 	}
 	else{
 		Item* aux = this->primeiro;
 		
-		cout << "\n\nLista - " << this->name << "\n";
+		cout << "\nLista - " << this->name << "\n";
 		
 		do{
 			if(!(aux->checkNull())){
@@ -141,5 +141,25 @@ void Lista::deleteTheRepeated(){
 		aux = aux->getProx();
 	}
 
-	cout << "\n-----> RepetiÃ§Ãµes deletadas com sucesso!\n\n------------------------------------------\n";
+	cout << "\n-----> Repetições deletadas com sucesso!\n\n------------------------------------------\n";
 }
+
+void Lista::insertInEmpty(string value){
+	Item* aux = this->primeiro;
+	bool itemEmpty = false;
+
+	do{
+		if(strcmp(aux->getValue().c_str(), "") == 0){
+			itemEmpty = true;
+			aux->setValue(value);
+			cout << "\n----->Nome inserido com sucesso!\n\n------------------------------------------\n";
+		}
+		
+		aux = aux->getProx();
+	}while((aux != NULL) && (itemEmpty != true));
+	
+	if(!itemEmpty){
+		cout << "\n----->Não foi possível inserir, pois a lista ja está totalmente preenchida!\n\n------------------------------------------\n";
+	}
+}
+

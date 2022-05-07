@@ -32,6 +32,7 @@ class Lista{
 		void printList();
     	void clearList();
     	void deleteTheRepeated();
+    	void insertInEmpty(string value);
 };
 
 #endif

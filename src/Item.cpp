@@ -1,7 +1,7 @@
 #include "Item.hpp"
 
 Item::Item(){
-	this->value = "";
+	this->value = "-1";
 	this->prox = NULL;
 }
 

@@ -20,7 +20,7 @@ int main() {
 	ifstream inFile(file.c_str());
 	
 	if(!inFile){
-		cerr << "\nERRO...ERRO...NÃ£o foi possÃ­vel abrir o arquivo...ERRO...ERRO\n\nSaindo...\n";
+		cerr << "\nERRO...ERRO...Não foi possível abrir o arquivo...ERRO...ERRO\n\nSaindo...\n";
 		return -1;
 	}
 
@@ -37,7 +37,7 @@ int main() {
 	int op;
 
 	do{
-		cout << "\n1 - Imprimir lista\n2 - Retirar nomes repetidos\n3 - Sair\n\nEscolha uma opÃ§Ã£o: ";
+		cout << "\n1 - Imprimir lista\n2 - Retirar nomes repetidos\n3 - Inserir em espaço vazio\n4 - Sair\n\nEscolha uma opção: ";
 		cin >> op;
 	
 		switch (op){
@@ -53,16 +53,26 @@ int main() {
 			}
 			case 3:
 			{
+				string value;
+				cout << "\nDigite o nome que deseja inserir: ";
+				cin >> value;
+				
+				listNomes.insertInEmpty(value);
+				break;
+			}
+			case 4:
+			{
 				cout << "\nSaindo...\n\n";
 				break;
 			}
 			default: 
 			{
-				cerr << "\n\nERRO...ERRO...OpÃ§Ã£o invÃ¡lida...ERRO...ERRO\n\n";
+				cerr << "\n\nERRO...ERRO...Opção inválida...ERRO...ERRO\n\n";
 			}
 		}
 	
-	}while(op != 3);
+	}while(op != 4);
 	
 	return 0;
 }
+

@@ -20,11 +20,11 @@ dessas novas inserções?</p>
 
 <div style="margin: 30px 30px 30px 30px;">
 	<code>
-	  	<pre>Class Item{
+	  	Class Item{
       string value; 
       Item *prox;
    };
-   		</pre>
+   		
 	</code>
 	  
 </div>

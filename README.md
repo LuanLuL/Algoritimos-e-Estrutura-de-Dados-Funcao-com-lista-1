@@ -41,7 +41,19 @@ dessas novas inserções?</p>
 
 <p>onde a variavel  "aux" proporciona O acesso aos Itens de forma segura e "itemEmpty" implica se algum Item vazio foi encontrado na lista.</p>
 <h3>Processamento<h3>
-
+<p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado três principais plataformas: i)Dev C++, ii)Visual Studio Code e iii)WSL:Ubunto</p>
+<br>
+<ol type="I">
+	<li>
+		<p>Dev-C++ é um software que oferece um ambiente de desenvolvimento integrado para o desenvolvimento de aplicações. O programa possui todas as funcionalidades padrões necessárias para a escrita, compilação, debugging e execução de programas na linguagem C e C++. Segue em anexo o link para download da platafomra — <a href="https://sourceforge.net/projects/orwelldevcpp/?msclkid=772169bcce5211ec8bf9238bb31ed5b5">Download Dev C++<a>.</p>
+	</li>
+	<li>
+		<p></p>
+	</li>
+	<li>
+		<p></p>
+	</li>
+</ol>	
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>
 

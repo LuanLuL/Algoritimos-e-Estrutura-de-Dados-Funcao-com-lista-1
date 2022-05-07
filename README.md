@@ -24,7 +24,7 @@ dessas novas inserções?</p>
 	Item *prox;
 };</pre></code>
 	  
-</div>
+</div><br>
 
 <p>Para exemplificar a implementação de listas encadeadas simples, vamos considerar Figura 1. Nela é possivel observar a representação do algoritimo, no qual é necessário armazenar o endereço de início e fim para que ela nao desapareça durante o processamento. 
 

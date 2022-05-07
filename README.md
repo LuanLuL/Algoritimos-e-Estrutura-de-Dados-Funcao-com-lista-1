@@ -29,6 +29,8 @@ dessas novas inserções?</p>
 <p>Para exemplificar a implementação de listas encadeadas simples, vamos considerar Figura 1. Nela é possivel observar a representação do algoritimo, no qual é necessário armazenar o endereço de início e fim para que ela nao desapareça durante o processamento. 
 
 <br><img src="img/img1.png"><br>
+	
+<p>Visto isso, após contruir todas essas estruturas, resta apenas implementar uma função que seja capaz de verificar Itens repetidos dentro da lista. Nessa conjuntura, é importante enfatizar que um item pode ou nao possir valor, desse modo torna-se facil efeturar a "exclusão" dos itens duplicados no sistema. Assim sendo, para expor um Item vazio basta categorizar um valor especial que o identifique como tal(este projeto utiliza do \"\").</p>
 
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
  

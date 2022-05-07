@@ -2,7 +2,7 @@
 
 <h3>Problemática</h3>
 
-<p style="text-aling: center; ">Crie uma lista linear que consiga armazenar um conjunto de 100 nomes quaisquer, os quais serão salvos de forma aleatória. Feito a estrutura conduza as seguintes ações: </p>
+<p style="text-aling: center;">Crie uma lista que consiga armazenar um conjunto de 100 nomes quaisquer, os quais serão salvos de forma aleatória. Feito a estrutura conduza as seguintes ações: </p>
 
 <div style="margin: 30px 30px 30px 30px;">
 	<ul>
@@ -16,10 +16,18 @@ dessas novas inserções?</p>
 
 <h3>Solução</h3>
 
-<p>É fato que para solucionar a problemática introduzida neste projeto existem diversar possibilidades. Todavia, foi se escolhida uma estratégia simples que não requisite tempo gasto no estudo de métodos com grau de dificuldade elevado. Nesse contexto, de acordo com as regras, a lógica consiste em tratar um por um dos possíveis caminhos para determinado elemento da matriz.</p> 
-<p>Para isso, é preciso compreender que um determinado elemento <i>V</i> pode ser acessador pelos paramentros <i>i</i> e <i>j</i>, bem como seus vizinhos:</p>
-<img src="img/Exemplo2.png" style="margin-left: 200px;">
-<div style="margin: 30px 30px 30px 30px;"><p>1) - Para que a matriz possa ser alocada dinamicamente de acordo com o parâmetro N digitado pelo usuário foi se construído uma classe;</p>
+<p style="text-aling: center;">Tendo em vista a problemática, a estrutura selecionada para sua resolução foi a lista encadeada simples. Contextualizando, uma lista encadeada simples é uma sequência de células; cada célula contém um objeto (todos os objetos são do mesmo tipo) e o endereço da célula seguinte.  Nesse contexto, é empregado o Item nas células sendo que cada objeto é um registro que pode ser definido assim:</p> 
+
+<div style="margin: 30px 30px 30px 30px;">
+	<code>
+	  	<pre>Class Item{
+      string value; 
+      Item *prox;
+   };
+   		</pre>
+	</code>
+	  
+</div>
 
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
  

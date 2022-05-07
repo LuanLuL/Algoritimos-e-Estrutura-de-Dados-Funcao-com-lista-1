@@ -18,7 +18,7 @@ dessas novas inserções?</p>
 
 <p style="text-aling: center;">Tendo em vista a problemática, a estrutura selecionada para sua resolução foi a lista encadeada simples. Contextualizando, uma lista encadeada simples é uma sequência de células; cada célula contém um objeto (todos os objetos são do mesmo tipo) e o endereço da célula seguinte.  Nesse contexto, é empregado o Item nas células sendo que cada objeto é um registro que pode ser definido assim:</p> 
 
-<div style="margin: 30px 30px 30px 30px;">
+<div>
 	<code>
 	  	<pre>Class Item{
 	string value;

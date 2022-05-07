@@ -23,7 +23,7 @@ dessas novas inserções?</p>
 <p>Visto isso, após contruir todas essas estruturas, resta apenas implementar uma função que seja capaz de verificar Itens repetidos dentro da lista. Nessa conjuntura, é importante enfatizar que um item pode ou nao possuir valor, desse modo torna-se facil efeturar a "exclusão" dos itens duplicados no sistema. Assim sendo, para expor um Item vazio basta categorizar um valor especial que o identifique como tal. Este projeto utiliza da seguinte estrutura para isso:</p>
 <div>
 	<code><pre>Item::Item(){
-	this->value = "-1";
+	this->value = "-";
 };</pre></code>
 </div><br>
 <p>Com isso, o software identifica objetos repetidos no interior da lista e os torna vazios.</p>

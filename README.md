@@ -41,17 +41,17 @@ dessas novas inserções?</p>
 
 <p>onde a variavel  "aux" proporciona O acesso aos Itens de forma segura e "itemEmpty" implica se algum Item vazio foi encontrado na lista.</p>
 <h3>Processamento</h3>
-<p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado três principais plataformas: i)Dev C++, ii)Visual Studio Code e iii)WSL:Ubunto</p>
+<p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado três principais plataformas: i) Dev C++, ii) Visual Studio Code e iii) WSL:Ubunto</p>
 
 <ol type="I">
 	<li>
 		<p>Dev-C++ é um software que oferece um ambiente de desenvolvimento integrado para o desenvolvimento de aplicações. O programa possui todas as funcionalidades padrões necessárias para a escrita, compilação, debugging e execução de programas na linguagem C e C++. Segue em anexo o link para download da platafomra — <a href="https://sourceforge.net/projects/orwelldevcpp/?msclkid=772169bcce5211ec8bf9238bb31ed5b5">Download Dev C++<a>.</p>
 	</li>
 	<li>
-		<p>>O Visual Studio Code é um editor de texto multiplataforma disponibilizado pela Microsoft para o desenvolvimento de aplicações, Conhecer essa ferramenta é importante para os desenvolvedores que pretendem trabalhar em ambientes multiplataforma, por exemplo,  podendo operar o desenvolvimento em ambiente Mac e Linux, ao mesmo tempo em que mantém o projeto compatível com Windows. Segue em anexo o link para o site da plataforma — <a href="https://code.visualstudio.com/">Visual Studio Code<a></p>
+		<p>O Visual Studio Code é um editor de texto multiplataforma disponibilizado pela Microsoft para o desenvolvimento de aplicações, Conhecer essa ferramenta é importante para os desenvolvedores que pretendem trabalhar em ambientes multiplataforma, por exemplo,  podendo operar o desenvolvimento em ambiente Mac e Linux, ao mesmo tempo em que mantém o projeto compatível com Windows. Segue em anexo o link para o site da plataforma — <a href="https://code.visualstudio.com/">Visual Studio Code<a></p>
 	</li>
 	<li>
-		<p</p>
+		<p>O WSL é um método para se executar o Sistema Operaciona Linux dentro do Windows de forma muito facil. Essa platoforma se torna essencial para o desenvovimento em ambiente GNU Linux, evitando tarefas como a intalação de maquinas vituais, criação de dual booting no computador pessoal e entre outras coisas.</p>
 	</li>
 </ol>	
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>

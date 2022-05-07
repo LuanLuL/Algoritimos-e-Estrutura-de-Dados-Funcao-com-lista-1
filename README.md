@@ -17,17 +17,15 @@ dessas novas inserções?</p>
 <h3>Solução</h3>
 
 <p style="text-aling: center;">Tendo em vista a problemática, a estrutura selecionada para sua resolução foi a lista encadeada simples. Contextualizando, uma lista encadeada simples é uma sequência de células; cada célula contém um objeto (todos os objetos são do mesmo tipo) e o endereço da célula seguinte.  Nesse contexto, é empregado o Item nas células sendo que cada objeto é um registro que pode ser definido assim:</p> 
-
+<br>
 <div>
-	<code>
-	  	<pre>Class Item{
+	<code><pre>Class Item{
 	string value;
 	Item *prox;
-};</pre>
-	</code>
+};</pre></code>
 	  
 </div>
-
+<br>
 <p>Para exemplificar a implementação de listas encadeadas simples, vamos considerar Figura 1. Nela é possivel observar a representação do algoritimo, no qual é necessário armazenar o endereço de início e fim para que ela nao desapareça durante o processamento. 
 
 <br><center>
@@ -36,7 +34,7 @@ dessas novas inserções?</p>
 	<br>
 	<capiton><i>Figura 1 - Ilustração de uma lista encadeada simples</i></capition>
 </div>
-</center>br>
+</center><br>
 
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
  

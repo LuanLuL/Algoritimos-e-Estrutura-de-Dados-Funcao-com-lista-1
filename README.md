@@ -1,10 +1,20 @@
-# <b>Contando Intruções</b>
-	
-<p style="text-aling: center; ">Buscando revisar alguns conceitos de programação, foi realizado este pequeno projeto, em que é trabalhado uma filosofia de algoritmos chamada algoritmos gulosos. Neste trabalho caminhamos por uma matriz objetivando sempre a busca pelos maiores valores segundo as regras implementadas, objetivando com isso:</p>
-
-<div style="margin: 30px 30px 30px 30px;"><p>(1) revisar os conceitos de programação básica;</p><p>(2) iniciar um cenário de questionamentos para identificar se realmente estou implementando de uma forma otimizada e; </p><p>(3) iniciar uma busca em torno de boa estruturação de código</p></div>
+# <b>AEDS: Funções com Lista</b>
 
 <h3>Problemática</h3>
+
+<p style="text-aling: center; ">Crie uma lista linear que consiga armazenar um conjunto de 100 nomes quaisquer, os quais serão salvos de forma aleatória. Feito a estrutura crie as seguintes ações: </p>
+
+<div style="margin: 30px 30px 30px 30px;">
+	<ul>
+		<li>
+			<p>Uma função que consiga identificar replicações na lista, ou seja, nomes iguais. Remova
+todas as réplicas sem mover os ”ponteiro“.</p></li><li><p>Como você gerenciaria os espaços em branco para novas inserções? Qual seria o custo
+dessas novas inserções?</p>
+		</li>
+	</ul>
+</div>
+
+
 <p>Elabore um pequeno programa que utilize uma matriz N x N, com o valor de N fornecido como entrada do programa, para executar a seguinte operação:</p>
 
 <div style="margin: 30px 30px 30px 30px;"><p>1) - Preenche a matriz N x N com números inteiros aleatórios de 0 a 99;</p>

@@ -40,18 +40,18 @@ dessas novas inserções?</p>
 }while((aux != NULL) && (itemEmpty != true));}</pre></code>
 
 <p>onde a variavel  "aux" proporciona O acesso aos Itens de forma segura e "itemEmpty" implica se algum Item vazio foi encontrado na lista.</p>
-<h3>Processamento<h3>
+<h3>Processamento</h3>
 <p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado três principais plataformas: i)Dev C++, ii)Visual Studio Code e iii)WSL:Ubunto</p>
-<br>
+
 <ol type="I">
 	<li>
 		<p>Dev-C++ é um software que oferece um ambiente de desenvolvimento integrado para o desenvolvimento de aplicações. O programa possui todas as funcionalidades padrões necessárias para a escrita, compilação, debugging e execução de programas na linguagem C e C++. Segue em anexo o link para download da platafomra — <a href="https://sourceforge.net/projects/orwelldevcpp/?msclkid=772169bcce5211ec8bf9238bb31ed5b5">Download Dev C++<a>.</p>
 	</li>
 	<li>
-		<p></p>
+		<p>>O Visual Studio Code é um editor de texto multiplataforma disponibilizado pela Microsoft para o desenvolvimento de aplicações, Conhecer essa ferramenta é importante para os desenvolvedores que pretendem trabalhar em ambientes multiplataforma, por exemplo,  podendo operar o desenvolvimento em ambiente Mac e Linux, ao mesmo tempo em que mantém o projeto compatível com Windows. Segue em anexo o link para o site da plataforma — <a href="https://code.visualstudio.com/">Visual Studio Code<a></p>
 	</li>
 	<li>
-		<p></p>
+		<p</p>
 	</li>
 </ol>	
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>

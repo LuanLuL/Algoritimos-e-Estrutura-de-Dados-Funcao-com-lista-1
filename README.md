@@ -54,6 +54,15 @@ dessas novas inserções?</p>
 		<p>O WSL é um método para se executar o Sistema Operaciona Linux dentro do Windows de forma muito facil. Essa platoforma se torna essencial para o desenvovimento em ambiente GNU Linux, evitando tarefas como a intalação de maquinas vituais, criação de dual booting no computador pessoal e entre outras coisas. Além disso, existem diversas vantagens como rodar programas em conjunto e compartihamento de localhost. Segue em anexo um  tutorial de download do WSL2 — <a href="https://youtu.be/hd6lxt5iVsg" target="_blank">Tutorial WSL2</a>.</p>
 	</li>
 </ol>
+<p>Ademais, para que o processamento do algoritimo seja feito, é necessário que o usuáro entre com o nome de um arquivo onde a lista se encontra; é recomendável utilizar aquivos com a extenção txt, ou seja, arquivos de texto que não contém formatação. Nesse contexto, é fundamental que o documento siga um padrão estabelecido com o intuito de não comprometer sua leitura. </p>
+	<p>Portanto, para posicionar os dados no arquivo, o usuário deve considerar cada string como um elemento da lista. Assim sendo, é aconselável separar os elementos por linha ou espaço. Supondo o desejo de armazenar uma lista que possua Valentina, João, Helena, Alice e Bernado; o usuário deve arquivar o seguinte texto:</p>
+<p><pre>
+Valentina
+João
+Helena
+Alice
+Bernado
+</pre></p>
 <hr>
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>

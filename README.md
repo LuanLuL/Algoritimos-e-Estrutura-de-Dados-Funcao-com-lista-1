@@ -64,7 +64,7 @@ Alice
 Bernado
 </pre></p>
 <p>Segue anexado junto ao repositório arquivos com extenção em txt como exemplos de entradas teste.</p>
-<hr size=0.5>
+<hr size="1">
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>
 

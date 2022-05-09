@@ -63,7 +63,8 @@ Helena
 Alice
 Bernado
 </pre></p>
-<hr>
+<p>Segue anexado junto ao repositório arquivos com extenção em txt como exemplos de entradas teste.</p>
+<hr size=2>
 <div style="margin: 30px 30px 30px 30px;"><p>Tecnologia: C++</p></div>
 <div style="margin: 30px 30px 30px 30px; font-size: 30px;"><p><b>Feito por Luan Gonçalves Santos</p><b></div>
 

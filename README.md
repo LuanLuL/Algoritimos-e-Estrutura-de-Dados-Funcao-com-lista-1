@@ -55,7 +55,7 @@ dessas novas inserções?</p>
 	</li>
 </ol>
 <p>Ademais, para que o processamento do algoritimo seja feito, é necessário que o usuáro entre com o nome de um arquivo onde a lista se encontra; é recomendável utilizar aquivos com a extenção txt, ou seja, arquivos de texto que não contém formatação. Nesse contexto, é fundamental que o documento siga um padrão estabelecido com o intuito de não comprometer sua leitura. </p>
-	<p>Portanto, para posicionar os dados no arquivo, o usuário deve considerar cada string como um elemento da lista. Assim sendo, é aconselável separar os elementos por linha ou espaço. Supondo o desejo de armazenar uma lista que possua Valentina, João, Helena, Alice e Bernado; o usuário deve arquivar o seguinte texto:</p>
+	<p>Portanto, para posicionar os dados no arquivo, o usuário deve considerar cada string como um elemento da lista. Assim sendo, é aconselável separar os elementos por linha ou espaço. Supondo o desejo de armazenar uma lista que possua [Valentina, João, Helena, Alice e Bernado] o usuário deve arquivar o seguinte texto:</p>
 <p><pre>
 Valentina
 João

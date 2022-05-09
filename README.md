@@ -38,11 +38,10 @@ dessas novas inserções?</p>
 	}
 	aux = aux->getProx();
 }while((aux != NULL) && (itemEmpty != true));}</pre></code>
-
+</div><br>
 <p>onde a variavel  "aux" proporciona O acesso aos Itens de forma segura e "itemEmpty" implica se algum Item vazio foi encontrado na lista.</p>
 <h3>Processamento</h3>
 <p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais plataformas: i) Dev C++, ii) Visual Studio Code e iii) WSL:Ubunto</p>
-
 <ol type="I">
 	<li>
 		<p>Dev-C++ é um software que oferece um ambiente de desenvolvimento integrado para o desenvolvimento de aplicações. O programa possui todas as funcionalidades padrões necessárias para a escrita, compilação, debugging e execução de programas na linguagem C e C++. Segue em anexo o link para download da platafomra — <a href="https://sourceforge.net/projects/orwelldevcpp/?msclkid=772169bcce5211ec8bf9238bb31ed5b5" target="_blank">Download Dev C++</a>.</p>

@@ -40,6 +40,7 @@ dessas novas inserções?</p>
 }while((aux != NULL) && (itemEmpty != true));}</pre></code>
 </div><br>
 <p>onde a variavel  "aux" proporciona O acesso aos Itens de forma segura e "itemEmpty" implica se algum Item vazio foi encontrado na lista.</p>
+<p>Espera-se portanto que o algoritimo desmonstrado seja capaz de analizar qualquer que seja a lista submetida pelo usuário indentificando possíveis repetições para então ser capaz de exluí-las</p>
 <h3>Processamento</h3>
 <p>Durante o deselvovimento do algoritimo apresentado nesse repositório, foi-se utilizado de três principais plataformas: i) Dev C++, ii) Visual Studio Code e iii) WSL:Ubunto</p>
 <ol type="I">

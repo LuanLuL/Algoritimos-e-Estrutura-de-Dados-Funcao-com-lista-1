@@ -25,7 +25,7 @@ dessas novas inserções?</p>
 	<code><pre>Item::Item(){
 	this->value = "-";
 };</pre></code>
-</div><br><br>
+</div><br>
 <p>Com isso, o software identifica objetos repetidos no interior da lista e os torna vazios.</p>
 <p>Por fim, para atender o quesito de  remover todas as réplicas sem mover os ”ponteiro“, basta desconsiderar os elementos vazios durante a apresentação da lista ao usuário.</p>
 
